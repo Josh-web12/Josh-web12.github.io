@@ -64,7 +64,7 @@ flex-direction: column;
 }
 .nav-link:hover{
     transition-duration: 500ms;
-    background-color: rgba(0, 4, 24, 0.459);
+    background-color: rgba(1, 13, 75, 0.363);
 }
 /* #logo:hover{
     filter: brightness(0);
