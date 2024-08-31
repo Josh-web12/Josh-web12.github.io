@@ -1,0 +1,160 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(193, 255, 255);
+    transition-duration: 0.5s;
+    
+}
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100000px;
+    padding: 0;
+    margin: 0;
+}
+#back-image{
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+.content-boxes{
+    background-color: rgba(1, 36, 31, 0.712);
+    font-family: "Roboto Mono";
+    width: 80vw;
+    height: 25px;
+    max-width: 1800px;
+    border-radius: 20px;
+    padding:10px;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 2;
+    overflow-y:hidden;
+   
+    
+}
+
+.content-boxes:hover{
+    height: auto;
+}
+h1{
+    font-family: "Jersey 10";
+    
+}
+b{
+    font-size: larger;
+    background-color: rgba(88, 230, 88, 0.521);
+}
+#logo{
+    height: 100%;
+    filter: invert(.5);
+    position: relative;
+}
+#nav-bar{
+
+display: flex;
+height: 10vw;
+max-height: 55px;
+background-color: rgba(255, 228, 196, 0.911);
+align-items: center;
+font-family: "Bebas Neue";
+font-size: clamp(10px,5vw, 30px);
+width: fit-content;
+padding-right: 10px;
+padding: auto;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 20%;
+margin: 10px;
+position: fixed;
+bottom: 10px;
+z-index: 3;
+}
+#nav-bar:hover{
+    padding: 15px;
+    filter: invert(1);
+}
+#nav-bar:hover #logo{
+    filter: invert(1);
+}
+#home-link{
+    color:rgba(128, 0, 128, 0.568);
+    
+}
+#vign{
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: radial-gradient(ellipse at center, rgba(255, 164, 247, 0.322) 0%,rgba(4, 167, 189, 0.055) 70%,#5a00563b 100%);
+}
+#expand-checkbox{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+#box-expand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(1, 36, 31, 0.712);
+    font-family: "Roboto Mono";
+    width: 80vw;
+    height: 30px;
+    max-width: 1800px;
+    border-radius: 20px;
+    padding:10px;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 2;
+    
+}
+#expand-checkbox:checked + #label-checkbox-expand{
+    color: rgb(255, 142, 142);
+    font-weight: bolder;
+}
+#background-music{
+    background-color: rgba(252, 107, 228, 0.438);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 10px;
+    top: auto;
+    height: fit-content;
+    justify-content: space-between;
+    z-index: 3;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+.button-music{
+    font-weight: bolder;
+    color: rgba(216, 36, 171, 0.644);
+    background-color: transparent;
+    font-family: "Jersey 10";
+    font-size: clamp(15px, 4vh, 45px);
+    width: 2vw;
+    border: none;
+    position: relative;
+    z-index: 3;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+.button-music:hover{
+    background-color: rgb(126, 1, 199);
+}
+
