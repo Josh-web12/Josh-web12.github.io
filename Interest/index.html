@@ -8,19 +8,63 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="bottom-bar">
-        <div id="bottom-bar-top">
-            <div class="header">Pony.exe</div>
-            <div class="X">X</div>
+    <div id="content-grid">
+        <div id="grid-background"></div>
+        <div id="window-1" style="box-shadow: 2px 2px 2px #ffcae9; background-color:beige;">
+            <div class="window-top" style="background:#ffcae9;">
+                <div class="header">teamfortress2.exe</div>
+                <a class="window-menu" id="m-1">
+                    <div class="hide-button">-</div>
+                    <div>x</div>
+                </a>
+            </div>
         </div>
-        <div id="bottom-bar-bottom">
-            <img src="/Video/celestia.gif" style="height: 80%;">
-            <img src="/Video/0e56b55a222c2b185f7ce5cf4d8427d9.gif" class="gif">
-            <img src="/Video/swetie.gif" class="gif">
-            <img src="/Video/rares.gif" class="gif">
-            <img src="/Video/shiny.gif" class="gif">
-            <img src="/Video/criter.gif" style="height: 80%;">
+        <div id="window-2" style="box-shadow: 2px 2px 2px #EF9595; background-color:rgb(255, 255, 255);">
+            <div class="window-top" style="background:#EF9595;">
+                <div class="header"></div>
+                <a class="window-menu">
+                    <div class="hide-button">-</div>
+                    <div>x</div>
+                </a>
+            </div>
+            <div class="window-content-box" id="main-window">
+                <div style="margin-top: 20px;font-size: x-large;font-weight: bolder;text-decoration:wavy underline overline blue;"class="content">
+                    Current Interest
+                </div>
+                <img src="/Video/twi-book.gif" class="content">
+                <div style="font-size: large;font-weight: bold;">Deltarune chapter 3 and 4</div>
+                <div>I have been looking forward to the continueation of deltarune. To be more specific, chapter 3 and 4, which will contain alot of new lore and gameplay. </div>
+                <div>For those of you who are not familiar with the series. Deltarune is a game made by toby fox and it used to be look at as a sequal to undertale aka the game with the skeleton brothers. But as time went on it established it self as it own thing with many special aspects.</div>
+                <div>The game will be released in 2025 and I am all for it.</div>
+                <img class="content"src="/Video/blunt.gif" style="margin-top: 10px; aspect-ratio: 1/1; width: 200px;">
+                <div>--------------------------------------------------------------</div>
+                <div style="font-size: large;font-weight: bold;">Others</div>
+            </div>
+        </div>
+        <div id="window-3" style="box-shadow: 2px 2px 2px #61377a; background-color:#aadaf0;">
+            <div class="window-top" style="background:#594192;">
+                <div class="header"></div>
+                <a class="window-menu" id="m-3">
+                    <div class="hide-button">-</div>
+                    <div>x</div>
+                </a>
+            </div>
         </div>
     </div>
+    <div id="bottom-bar">
+        <div class="window-top">
+            <div class="header">Pony.exe</div>
+            <a href="/index.html" class="window-menu">Return</a>
+        </div>
+        <div id="bottom-bar-bottom">
+            <img src="/Video/celestia.gif" style="height: 80%;" id="pone-1" class="gif">
+            <img src="/Video/0e56b55a222c2b185f7ce5cf4d8427d9.gif" class="gif">
+            <img src="/Video/swetie.gif" class="gif" id="pone-3">
+            <img src="/Video/rares.gif" class="gif">
+            <img src="/Video/shiny.gif" class="gif">
+            <img src="/Video/criter.gif" style="height: 80%;" class="gif">
+        </div>
+    </div>
+    <script src="/Interest/main.js"></script>
 </body>
 </html>
